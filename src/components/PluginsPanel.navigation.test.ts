@@ -159,6 +159,12 @@ describe("Apps pop-up", () => {
     expect(html).toContain('data-hosted-app="agentcard"');
     expect(html.match(/data-hosted-app="/g)).toHaveLength(1);
   });
+  it.each(["amazon", "mercado livre", "mercadolivre"])("finds Radar Scout by %s and shows no other hosted card", (word) => {
+    fixture.overrides.set(SEARCH, word);
+    const html = render().html;
+    expect(html).toContain('data-hosted-app="radarscout"');
+    expect(html.match(/data-hosted-app="/g)).toHaveLength(1);
+  });
   it("counts Whop and Agentcard both under Connected", () => {
     fixture.overrides.set(HOSTED_CONNECTED, { whop: true, agentcard: true });
     expect(render().html).toContain("3 connected");

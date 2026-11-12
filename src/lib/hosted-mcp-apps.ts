@@ -1,5 +1,6 @@
 import { CreditCard, Mail, PhoneCall, RadioTower, Smartphone, type LucideIcon } from "lucide-react";
 
+import radarScoutLogo from "@/assets/radarscout/logo.svg";
 import whopLogo from "@/assets/whop/logo.png";
 import type { LocaleKey } from "@/locales";
 import { POSTIZ_SERVER } from "../../shared/postiz";
@@ -83,6 +84,15 @@ export const HOSTED_MCP_APPS = [
     description: "agentphone.description",
     notice: "agentphone.notice",
     keywords: "agentphone phone number sms text call calls",
+  },
+  {
+    id: "radarscout",
+    label: "Radar Scout",
+    url: "https://mcp.radarscout.com.br/mcp",
+    icon: { image: radarScoutLogo },
+    description: "radarscout.description",
+    notice: "radarscout.notice",
+    keywords: "radar scout amazon mercado livre mercadolivre marketplace seller sales profit settlement catalog inventory repricer ads",
   },
 ] as const satisfies readonly HostedMcpApp[];
 

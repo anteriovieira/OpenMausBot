@@ -47,6 +47,8 @@
   "telnyx.notice": "Paste an API key from your Telnyx portal. {app} never shows it again, and Disconnect deletes it. Telnyx reaches its whole API through one tool, so every Telnyx action a bot takes follows Sending on your behalf, including buying numbers billed to your account. Choose which bots get it under Bot access. To have a bot answer texts, add a webhook for that bot in Automations and set it on your Telnyx messaging profile.",
   "agentphone.description": "US and Canadian numbers for your bots, with texts and calls, on your own AgentPhone account.",
   "agentphone.notice": "Sign in with your AgentPhone account. No API key needed. A bot that can use AgentPhone can buy numbers, text and place calls, billed to your account; each of those follows Sending on your behalf, so choose which bots get it under Bot access. To have a bot answer texts and calls, add a webhook for that bot in Automations and set it in AgentPhone.",
+  "radarscout.description": "Seller sales, profit, settlements, catalog, inventory, repricing and ads across Amazon, Mercado Livre and other supported marketplaces.",
+  "radarscout.notice": "Sign in with your Radar Scout account. No API key needed. Radar Scout gives bots access to your marketplace seller data; its Ads tools can change campaigns after you review a simulation and confirm. Choose which bots get it under Bot access.",
   "email.title": "Email",
   "email.description": "Read and send mail on any mail host, with your address and password.",
   "email.menu": "Email options",

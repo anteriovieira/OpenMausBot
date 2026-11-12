@@ -143,6 +143,9 @@ The [Whop fixture](whop.md) checks its one-click setup, cancellation, denied
 consent, discovery failures, reconnect and disconnect using that same registry
 and a synthetic provider, without accessing a real Whop account.
 
+The [Radar Scout connection](radarscout.md) documents the hosted MCP endpoint,
+OAuth setup and safe live acceptance for marketplace seller data and Ads actions.
+
 The [bot contact cards fixture](bot-contact-cards.md) checks the AgentMail,
 AgentPhone, Vapi and Telnyx cards: a pasted key that is refused, replaced and
 deleted on Disconnect, kept in a header and out of every listing, against a
